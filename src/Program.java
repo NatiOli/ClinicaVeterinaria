@@ -65,6 +65,7 @@ public class Program {
 
 		}
 
+		LoggerConsulta.getInstance().log("Consulta marcada para " + pet.getNome() +" com o DR(a)." + vet.getNome() + " em " + data);		
 		sc.close();
 
 	}
